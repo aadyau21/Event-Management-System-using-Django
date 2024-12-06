@@ -1,0 +1,23 @@
+event_management/
+├── manage.py
+├── event_management/
+│   ├── __init__.py
+│   ├── settings.py
+│   ├── urls.py
+│   ├── asgi.py
+│   ├── wsgi.py
+├── events/
+│   ├── migrations/
+│   │   └── __init__.py
+│   ├── templates/
+│   │   └── events/
+│   │       ├── dashboard.html
+│   │       ├── create_event.html
+│   ├── __init__.py
+│   ├── admin.py
+│   ├── apps.py
+│   ├── forms.py
+│   ├── models.py
+│   ├── tests.py
+│   ├── urls.py
+│   ├── views.py
