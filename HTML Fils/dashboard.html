@@ -1,0 +1,9 @@
+{% for event in events %}
+  <h2>{{ event.title }}</h2>
+  <p>{{ event.description }}</p>
+  <p>{{ event.date }} at {{ event.time }}</p>
+  <p>Location: {{ event.location }}</p>
+  {% if user.role == 'Attendee' %}
+    <a href="{% url 'register_event' event.id %}">Register</a>
+  {% endif %}
+{% endfor %}
